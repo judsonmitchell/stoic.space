@@ -1,0 +1,110 @@
+[
+    {
+        "id":"0eb37819-33d0-4486-bca8-e103578806a8",//test
+        "quote": "Either this point must be firmly maintained, that Moral Worth is the sole good, or it is absolutely impossible to prove that virtue constitutes happiness. And in that case I do not see why we should trouble to study philosophy.",
+        "cite": "De Finibus III.11",
+        "author": "Cicero"
+    },
+    {
+        "id":"fdfb2d53-8399-4d60-b5d5-9407a6a2753f",
+        "quote": "Whatever is good is praiseworthy; but whatever is praiseworthy is morally honourable: therefore that which is good is morally honourable.",
+        "cite": "De Finibus III.27",
+        "author": "Cicero"
+    },
+    {
+        "id":"08814841-b022-4a7e-b13f-13e8f2a77ea1",
+        "quote": "The happy life is a thing that deserves (so to put it) that one should be proud of it; and this cannot rightly be said of any life but one morally honourable. Therefore the moral life is the happy life.",
+        "cite": "De Finibus III.28",
+        "author": "Cicero"
+    },
+    {
+        "id":"3d1a10ce-1adb-482a-abad-3b2bb1ee61bd",
+        "quote": "The Chief Good consists in applying to the conduct of life a knowledge of the working of natural causes, choosing what is in accordance with nature and rejecting what is contrary to it; in other words, the Chief Good is to live in agreement and in harmony with nature.",
+        "cite": "De Finibus III.31",
+        "author": "Cicero"
+    },
+    {
+        "id":"ad5953da-cfb1-4c03-9fbf-24f9a39e8e26",
+        "quote":"The mind ascends by inference from the things in accordance with nature till finally it arrives at the notion of Good.",
+        "cite": "De Finibus III.33",
+        "author": "Cicero"
+    },
+    {
+        "id":"76b42df4-e87f-45bf-96fe-34ef2ff8990b",
+        "quote": "The mere fact that men endure the same pain more easily when they voluntarily undergo it for the sake of their country than when they suffer it for some lesser cause, shows that the intensity of the pain depends on the state of mind of the sufferer, not on its own intrinsic nature.",
+        "cite": "De Finibus III.42",
+        "author": "Cicero"
+    },
+    {
+        "id":"83946e31-bbe0-47b2-bf33-ee5945cc14b9",
+        "quote": "We deem health to be deserving of a certain value, but we do not place it above virtue.",
+        "cite": "De Finibus III.44",
+        "author": "Cicero"
+    },
+    {
+        "id":"52d64424-7db6-4e13-9d24-f5188422e7ab",
+        "quote":"The Stoics went on to affirm that among those things which were of no importance for happiness or misery, there was nevertheless an element of difference, making some of them of positive and others of negative value, and others neutral.",
+        "cite": "De Finibus III.50",
+        "author": "Cicero"
+    },
+    {
+        "id":"ea216c38-9f73-4700-89b8-ae5a327293b2",
+        "quote":"When a man’s circumstances contain a preponderance of things in accordance with nature, it is appropriate for him to remain alive; when he possesses or sees in prospect a majority of the contrary things, it is appropriate for him to depart from life.",
+        "cite": "De Finibus III.60",
+        "author": "Cicero"
+    },
+    {
+        "id":"70c5e3b7-3abf-4e60-8f1a-24f7d4f6cbf1",
+        "quote":"Often it is appropriate for the Wise Man to abandon life at a moment when he is enjoying supreme happiness, if an opportunity offers for making a timely exit.",
+        "cite": "De Finibus III.61",
+        "author": "Cicero"
+    },
+    {
+        "id":"897245e7-f6f5-4682-a7d0-f816c72385ec",
+        "quote":"It is held by the Stoics to be important to understand that nature creates in parents an affection for their children; and parental affection is the source to which we trace the origin of the association of the human race in communities.",
+        "cite": "De Finibus III.62",
+        "author": "Cicero"
+    },
+    {
+        "id":"085f42f8-15be-47d3-8897-ce135a2ca24a",
+        "quote":"With human beings this bond of mutual aid is far more intimate. It follows that we are by nature fitted to form unions, societies and states.",
+        "cite": "De Finibus III.63",
+        "author": "Cicero"
+    },
+    {
+        "id":"a0cc89b9-e25a-4753-a969-b4612b585656",
+        "quote":"The fact that no one would care to pass his life alone in a desert, even though supplied with pleasures in unbounded profusion, readily shows that we are born for society and intercourse, and for a natural partnership with our fellow men.",
+        "cite": "De Finibus III.65",
+        "author": "Cicero"
+    },
+    {
+        "id":"35dfe504-7371-4823-a464-3a326c94a4e5",
+        "quote":"Just as, though the theatre is a public place, yet it is correct to say that the particular seat a man has taken belongs to him, so in the state or in the universe, though these are common to all, no principle of justice militates against the possession of private property.",
+        "cite": "De Finibus III.67",
+        "author": "Cicero"
+    },
+    {
+        "id":"21b9e2cf-f38f-4784-97d3-213d8fe90c91",
+        "quote":"The Wise Man should desire to engage in politics and government, and also to live in accordance with nature by taking to himself a wife and desiring to have children by her. Even the passion of love when pure is not thought incompatible with the character of the Stoic sage.",
+        "cite": "De Finibus III.68",
+        "author": "Cicero"
+    },
+    {
+        "id":"82ae760e-759f-45f7-b843-0ce37c91f5e9",
+        "quote":"“[The Stoics] recommend the cultivation of friendship, classing it among ‘things beneficial.’",
+        "cite": "De Finibus III.70",
+        "author": "Cicero"
+    },
+    {
+        "id":"75c281b1-75ed-43bc-94e3-9b35af750168",
+        "quote":"The school I am discussing [Stoicism] emphatically rejects the view that we adopt or approve either justice or friendship for the sake of their utility.",
+        "cite": "De Finibus III.70",
+        "author": "Cicero"
+    },
+    {
+        "id":"214974e5-2fb1-4e69-b7f8-c25519728a5c",
+        "quote":"He who is to live in accordance with nature must base his principles upon the system and government of the entire world.",
+        "cite": "De Finibus III.73",
+        "author": "Cicero"
+    }
+]
