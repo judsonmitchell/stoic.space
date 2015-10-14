@@ -7,3 +7,9 @@ Stoic](http://opinionator.blogs.nytimes.com/2015/02/02/how-to-be-a-stoic/?_r=0#m
 
 This is a single-page app designed to be stored and served by the 
 [Interplanetary File System](https://ipfs.io).
+
+## Demo
+
+* gh-pages: http://judsonmitchell.github.io/stoic.space/
+* web (through IPFS): http://stoic.space
+
