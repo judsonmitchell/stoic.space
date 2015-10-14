@@ -3,29 +3,54 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable = no">
-    <!--  <link rel="stylesheet" href="css/tacit.min.css" type="text/css" /> -->
     <title>stoic.space</title>
+    <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
     <style type="text/css" media="all">
-        body{
-            margin:40px auto;
-            max-width:650px;
-            line-height:1.6;
-            font-size:18px;
-            color:#444;
-            padding:010px
+        body {
+            margin : 40px auto;
+            max-width : 650px;
+            line-height : 1.6;
+            font-size : 18px;
+            color : #444;
+            padding : 10px;
+            font-family : 'Goudy Bookletter 1911', serif;
+            background : rgb(233, 246, 253);
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNlOWY2ZmQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDNlZWZiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+            background: -moz-radial-gradient(center, ellipse cover,  rgba(233,246,253,1) 0%, rgba(211,238,251,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(233,246,253,1)), color-stop(100%,rgba(211,238,251,1))); /* Chrome,Safari4+ */
+            background: -webkit-radial-gradient(center, ellipse cover,  rgba(233,246,253,1) 0%,rgba(211,238,251,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-radial-gradient(center, ellipse cover,  rgba(233,246,253,1) 0%,rgba(211,238,251,1) 100%); /* Opera 12+ */
+            background: -ms-radial-gradient(center, ellipse cover,  rgba(233,246,253,1) 0%,rgba(211,238,251,1) 100%); /* IE10+ */
+            background: radial-gradient(ellipse at center,  rgba(233,246,253,1) 0%,rgba(211,238,251,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9f6fd', endColorstr='#d3eefb',GradientType=1 );
         }
-
-        h1,h2,h3{line-height:1.2}
+        #quote {
+            font-size : 1.5em;
+        }
+        .btn-container {
+            text-align : center;
+            margin-top: 5%;
+        }
+        .header {
+            position:absolute;
+            top: 40px;
+            right: 40px;
+            text-align:right
+        }
     </style>
 </head>
 <body>
         <h1>stoic.space</h1>
-        <blockquote id="quote">
-        </blockquote>
-        <cite id="citation">
-        </cite>
-        <div>
+        <p id="quote">
+        </p>
+        <p>
+            <cite id="citation"> </cite>
+        </p>
+        <div class="btn-container">
             <button>Refresh</button>
+        </div>
+        <div class="header">
+            <a href="#472">About <img alt="About" title="About" src="data:image/png;base64,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" ></a>
         </div>
 <script type="text/javascript" charset="utf-8">
    //data file
@@ -2861,21 +2886,47 @@
         "quote": "How small a part of the boundless and unfathomable time is assigned to every man! For it is very soon swallowed up in the eternal. And how small a part of the whole substance! And how small a part of the universal soul! And on what a small clod of the whole earth you creep!",
         "cite": "Meditations, XII.32",
         "author": "Marcus Aurelius"
+    },
+    {
+        "id": "about",
+        "quote": "<h4>About</h4><p>Stoic.space is a collection of Stoic aphorisms collected by Massimo Pigliucci. To learn more about how he uses these aphorisms in daily life, see <a href=\"http:\/\/opinionator.blogs.nytimes.com\/2015\/02\/02\/how-to-be-a-stoic\/?_r=0#more-155626\">How to Be a Stoic<\/a>.<p><p>This web app is stored on the <a href=\"https:\/\/ipfs.io\">Inter-Planetary File System<\/a>, the permananent web.",
+        "cite": "Developer",
+        "author": "Judson Mitchell"
     }
 
 ]
-    var loadData = function () {
-        var index = Math.floor(Math.random() * data.length) + 1;
-        console.log(data[index].quote);
-        document.getElementById('quote').innerText = data[index].quote;
+
+    var loadData = function (hash) {
+        var index;
+        if (hash){
+            index = hash.substring(1);
+
+        } else {
+            index = Math.floor(Math.random() * data.length) + 1;
+            window.location.hash = index;
+        }
+
+        document.getElementById('quote').innerHTML = data[index].quote;
         document.getElementById('citation').innerText = '-' + data[index].author + ', ' + data[index].cite;
     }
-    document.body.onload = loadData();
+
+    document.body.onload = function (){
+        var hash;
+        if (window.location.hash) {
+            hash = window.location.hash.substring(1);
+        } else {
+            hash = null;
+        }
+
+        loadData(hash);
+    };
     var el = document.querySelectorAll('button');
     el[0].addEventListener('click', function (){
         loadData();
     });
-
+    window.onhashchange = function () {
+        loadData(window.location.hash);
+    }
 </script>
 </body>
 </html>
