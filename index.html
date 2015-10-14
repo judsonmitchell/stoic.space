@@ -2889,8 +2889,8 @@
     },
     {
         "id": "about",
-        "quote": "<h4>About</h4><p>Stoic.space is a collection of Stoic aphorisms collected by Massimo Pigliucci. To learn more about how he uses these aphorisms in daily life, see <a href=\"http:\/\/opinionator.blogs.nytimes.com\/2015\/02\/02\/how-to-be-a-stoic\/?_r=0#more-155626\">How to Be a Stoic<\/a>.<p><p>This web app is stored on the <a href=\"https:\/\/ipfs.io\">Inter-Planetary File System<\/a>, the permananent web.",
-        "cite": "Developer",
+        "quote": "<h4>About</h4><p>Stoic.space is a collection of Stoic aphorisms collected by <a target=\"_blank\" href=\"https:\/\/twitter.com\/mpigliucci\">Massimo Pigliucci</a>. To learn more about how he uses these aphorisms in daily life, see <a target=\_blank\" href=\"http:\/\/opinionator.blogs.nytimes.com\/2015\/02\/02\/how-to-be-a-stoic\/\">How to Be a Stoic<\/a>.<p><p>This web app is stored on the <a target=\"_blank\" href=\"https:\/\/ipfs.io\">Inter-Planetary File System<\/a>, the permananent web.",
+        "cite": "Developer, v 1.0.0",
         "author": "Judson Mitchell"
     }
 
@@ -2907,13 +2907,13 @@
         }
 
         document.getElementById('quote').innerHTML = data[index].quote;
-        document.getElementById('citation').innerText = '-' + data[index].author + ', ' + data[index].cite;
+        document.getElementById('citation').innerText = '- ' + data[index].author + ', ' + data[index].cite;
     }
 
     document.body.onload = function (){
         var hash;
         if (window.location.hash) {
-            hash = window.location.hash.substring(1);
+            hash = window.location.hash;
         } else {
             hash = null;
         }
